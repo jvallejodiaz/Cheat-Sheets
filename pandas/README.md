@@ -40,7 +40,7 @@ frame = pd.pivot_table(accounts_frame, index=["business_plan"], values=["purchas
 
 ```
 
-### Greate a monthly report
+### Create a monthly report
 
 ```@python
 
