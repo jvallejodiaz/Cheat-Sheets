@@ -11,3 +11,11 @@ while [[ "$(curl --silent -L 'http://127.0.0.1:9500/_cluster/health' | jq -e '.s
 done
 
 ```
+
+## script to unzip all files in subfolders
+
+```@bash
+
+find . -name "*.zip" -exec unzip {} -d my_new_folder \;
+
+```
